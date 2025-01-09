@@ -7,13 +7,15 @@
   "keywords": [],
   "license": "ISC",
   "scripts": {
-    "start": "bun index.ts"
+    "startc": "bun indexc.ts",
+    "startu": "bun indexu.ts",
+    "startd": "bun indexd.ts"
   },
   "dependencies": {
-    "@clerk/clerk-sdk-node": "^4.12.21",
-    "bun": "^1.0.12",
-    "dotenv": "^16.3.1",
+    "@clerk/clerk-sdk-node": "^4.13.21",
+    "bun": "^1.1.26",
+    "dotenv": "^16.4.5",
     "ora": "^7.0.1",
-    "zod": "^3.22.4"
+    "zod": "^3.23.8"
   }
 }
